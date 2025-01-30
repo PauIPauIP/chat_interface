@@ -1,10 +1,11 @@
 [Desktop Entry]
+Version=0.6 #according to newest github tag
 Type=Application
 Name=Liphium
-GenericName=Chat application
-Comment=A chat app that's fun again, while also being secure.
+GenericName=Chat Application
+Comment=A chat app thats fun again, while also being secure.
 Categories=Network;InstantMessaging;
-Icon=com.liphium.Liphium
-Exec=chat_interface
+Icon=liphium #works since icon was copied into /usr/share/icons
+Exec=chat_interface %U
 Terminal=false
 StartupWMClass=chat_interface
