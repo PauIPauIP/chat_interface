@@ -1,11 +1,11 @@
-# Maintainer: Your Name <your.email@example.com>
+# Maintainer: Paul paul@liphium.dev
 pkgname="liphium-git"
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="A chat app that's fun again, while also being secure."
 arch=('x86_64')
 url="https://github.com/PauIPauIP/chat_interface/tree/master"  # project URL, I think thats the correct one
-license=('Apache')  # or Apache2
+license=('Apache')  # Apache2 also works
 depends=('gtk3' 'other-dependencies')  # dependencies
 makedepends=('build-tools')  # required dependencies for building
 source=("path/to/your/source/files"
